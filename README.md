@@ -1,16 +1,39 @@
-# restaurant_ratings_flutter_firebase
+# Restaurant In-App Rating Demo App with Flutter & Firebase
 
-A new Flutter project.
+## Running the project with Firebase
 
-## Getting Started
+To use this project with Firebase, some configuration steps are required.
 
-This project is a starting point for a Flutter application.
+- Create a new project with the Firebase console.
+- Add iOS and Android apps in the Firebase project settings.
+- On Android, use `com.example.restaurant_ratings_flutter_firebase` as the package name.
+- then, [download and copy](https://firebase.google.com/docs/flutter/setup#configure_an_android_app) `google-services.json` into `android/app`.
+- On iOS, use `com.example.restaurantRatingsFlutterFirebase` as the bundle ID.
+- then, [download and copy](https://firebase.google.com/docs/flutter/setup#configure_an_ios_app) `GoogleService-Info.plist` into `iOS/Runner`, and add it to the Runner target in Xcode.
 
-A few resources to get you started if this is your first Flutter project:
+See this document for full instructions:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [https://firebase.google.com/docs/flutter/setup](https://firebase.google.com/docs/flutter/setup) 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## References
+
+### Videos
+
+- [Learning Cloud Functions for Firebase (video series)](https://firebase.google.com/docs/functions/video-series)
+- [How do Cloud Functions work? | Get to Know Cloud Firestore #11](https://youtu.be/rERRuBjxJ80)
+
+### Documentation
+- [Cloud Functions for Firebase](https://firebase.google.com/docs/functions)
+- [Call functions from your app](https://firebase.google.com/docs/functions/callable) (aka callable functions)
+- [Call functions via HTTP requests](https://firebase.google.com/docs/functions/http-events)
+- [Cloud Firestore triggers](https://firebase.google.com/docs/functions/firestore-events)
+- [Manage functions deployment and runtime options](https://firebase.google.com/docs/functions/manage-functions)
+- [Environment configuration](https://firebase.google.com/docs/functions/config-env) (useful to set API keys without hard-coding them)
+- [Deploy to multiple environments with Firebase Hosting](https://firebase.googleblog.com/2016/07/deploy-to-multiple-environments-with.html)
+
+### Sample code
+
+- [Cloud Functions for Firebase Sample Library](https://github.com/firebase/functions-samples)
+
+
+[LICENSE: MIT](LICENSE.md)
