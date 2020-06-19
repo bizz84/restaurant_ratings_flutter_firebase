@@ -1,5 +1,14 @@
 # Restaurant In-App Rating Demo App with Flutter & Firebase
 
+![Screenshots](media/screenshots.png)
+
+## Features
+
+- Sign in with email & password / anonymous
+- Restaurants List
+- Restaurant detail page with rating UI
+- Cloud Function to calculate average rating and number of ratings
+  
 ## Running the project with Firebase
 
 To use this project with Firebase, some configuration steps are required.
@@ -23,6 +32,7 @@ See this document for full instructions:
 - [How do Cloud Functions work? | Get to Know Cloud Firestore #11](https://youtu.be/rERRuBjxJ80)
 
 ### Documentation
+
 - [Cloud Functions for Firebase](https://firebase.google.com/docs/functions)
 - [Call functions from your app](https://firebase.google.com/docs/functions/callable) (aka callable functions)
 - [Call functions via HTTP requests](https://firebase.google.com/docs/functions/http-events)
@@ -36,4 +46,4 @@ See this document for full instructions:
 - [Cloud Functions for Firebase Sample Library](https://github.com/firebase/functions-samples)
 
 
-[LICENSE: MIT](LICENSE.md)
+## [LICENSE: MIT](LICENSE.md)
