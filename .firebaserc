@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "dev": "restaurant-ratings-flutter",
+    "default": "restaurant-ratings-flutter"
+  }
+}
